@@ -131,10 +131,10 @@ exit                                                                            
 echo "Iniciando a atualização dos dados no banco." | tee -a "$caminho_log"
 
 # Configurações do banco de dados
-host="172.10.20.47"
-usuario="archer"
-senha="B5n3Qz2vL7HAUs7z"
-banco_dados="archerx"
+host=""
+usuario=""
+senha=""
+banco_dados=""
 
 # Vamos ler a array e seperar os dados como sempre fizemos até o momento.
 for linha in "${linhas[@]}"; do
